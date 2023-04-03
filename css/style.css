@@ -1,0 +1,64 @@
+html{
+    font-family:Montserrat;
+    background-color:white;
+    color:darkblue;
+    padding: 1.5em;
+}
+
+h2{
+    display: block; 
+    font-size: 2em; 
+    margin-top: .5em;
+}
+
+img{
+    width:100%;
+}
+
+p{
+    font-family:Montserrat;
+    color:blue;
+    font-weight:600;
+    font-size:20px;
+}
+
+figcaption{
+    text-transform:italic;
+    color:rgb(2, 2, 118);
+    font-family:Oswald;
+    font-size:100%;
+}
+
+q{
+    color:blue;
+    text-shadow: 2px 2px lightskyblue;
+    font-weight:600;
+    font-style:italic;
+}
+
+
+blockquote{
+    color:lightskyblue;
+    text-align:center;
+    text-decoration:underline;
+    font-size:20px;
+}
+
+
+a:visited{
+    color:blue;
+}
+
+a:focus{
+    color:aqua;
+}
+
+a.one:hover{
+    color:rgb(19, 117, 173);
+    text-decoration:none;
+}
+
+section {
+    padding: 1em 0;
+    color:darkblue;
+  }
