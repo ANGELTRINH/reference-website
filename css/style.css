@@ -1,8 +1,27 @@
 html{
+    text-align:center;
     font-family:Montserrat;
-    background-color:white;
+    background-color:#eef4fb;
     color:darkblue;
     padding: 1.5em;
+}
+
+
+.parentOfUl{ 
+    text-align:center;} 
+
+
+.centered { 
+    text-align: center; 
+    list-style-position:inside;
+}
+
+ul{ display:inline-block; 
+}
+
+li{ 
+    line-height:30px;
+    text-align:center; 
 }
 
 h2{
@@ -15,25 +34,27 @@ img{
     width:100%;
 }
 
+
 p{
-    font-family:Montserrat;
-    color:blue;
-    font-weight:600;
-    font-size:20px;
+    font:none small-caps 600 1.5em/30px Montserrat, serif;
 }
 
 figcaption{
+    text-align:center;
     text-transform:italic;
     color:rgb(2, 2, 118);
     font-family:Oswald;
-    font-size:100%;
+    font-size:130%;
 }
+
 
 q{
     color:blue;
     text-shadow: 2px 2px lightskyblue;
+    text-align:center;
     font-weight:600;
     font-style:italic;
+    line-height: 24px;
 }
 
 
